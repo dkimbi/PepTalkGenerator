@@ -37,6 +37,19 @@ button {
     background: rgb(28, 77, 238);
 }
 
+h3 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color:coral;
+    font-size: 100px;
+
+}
+
+#motivation-btn {
+    background: rgb(28, 77, 238);
+}
+
 #save-btn {
     background: darkgreen;
 }
