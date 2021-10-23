@@ -1,3 +1,5 @@
+
+
 // column one of words
 const columnOne = [
 "Champ", "Fact", "Everybody says", "Dang...", "Check it:", "Just saying...", "Superstar,","Tiger","Self,","Know this:","News alert","Girl,","Ace,","Excuse me but",
@@ -21,6 +23,7 @@ const columnFour = [
 "high five.","say it again!","according to CNN.","so get used to it."
 	];
 
+    /*
 index_num1 = Math.floor(Math.random() * 11);
 index_num2 = Math.floor(Math.random() * 11);
 index_num3 = Math.floor(Math.random() * 11);
@@ -31,3 +34,4 @@ console.log(columnTwo[index_num2])
 console.log(columnThree[index_num3])
 console.log(columnFour[index_num4])
 // NOT integer console.log(Math.random())
+*/
