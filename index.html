@@ -3,11 +3,19 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
+        <header>
+            <img src="images/dynamx.jpg" alt="Motivational words" class="profile-image">
+            <h1 class="tag name">Hello, I’m Dee.</h1>
+            <p class="tag location">Let's stay motivated!.</p>
+          </header>
+          
         <h1>People Motivated</h1>
         <h2 id="count-el">0</h2>
         <button id="increment-btn" onclick="increment()">INCREMENT</button>
         <button id="motivation-btn" onclick="motivationalSentence()">MOTIVATE</button>
         <h3 id="word-el">Get motivated</h3>
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <p id="save-el">Previous entries> </p>
         <script src="index.js"></script>
     </body>
 </html>

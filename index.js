@@ -2,7 +2,6 @@
 
 
 
-
 const columnOne = [
     "Champ", "Fact", "Everybody says", "Dang...", "Check it:", "Just saying...", "Superstar,","Tiger","Self,","Know this:","News alert","Girl,","Ace,","Excuse me but",
     "Experts agree:","In my opinion,","Hear ye, hear ye:","Okay, listen up:"
@@ -104,12 +103,18 @@ function increment(){
 theAnswer()
 */
 
-count = 0;
+let countEL = document.getElementById("count-el")
+let count = 0;
+
+let saveEL = document.getElementById("save-el")
+
+
 // listen for clicks on the increment button
 function increment() {
-    count++
-    console.log(count)
-    document.getElementById("count-el").innerText = count
+    count+=1
+    //console.log(count)
+    countEL.textContent = count
+    // save(count)
 
 }
 
@@ -118,4 +123,10 @@ function increment() {
 
 // change the count-el in the HTML to reflect the new count
 
+// Save count from increment function
+function save(){
+    let countString = count + " > "
+    saveEL.textContent+=countString
+    console.log(count)
+}
 
